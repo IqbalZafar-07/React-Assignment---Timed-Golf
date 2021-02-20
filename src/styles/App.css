@@ -1,7 +1,9 @@
 .heading-timer {
   position: absolute;
   top: 50px;
-  left: 720px;
+  left: 90%;
+  font-size: 50px;
+  color: chartreuse;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
@@ -17,9 +19,7 @@
   width: 195px;
   margin: 15px;
   height: 60px;
-
 }
-
 
 .ball {
   background-color: black;
@@ -32,7 +32,6 @@
   border-radius: 25px;
 }
 
-
 .hole {
   background-color: rgb(62, 85, 107);
   /* box-shadow: 0 10px 10px 0px; */
@@ -42,4 +41,14 @@
   height: 50px;
   width: 50px;
   border-radius: 30px;
+}
+button {
+  margin-left: 50%;
+  margin-top: 20%;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  background-color: rgb(22, 119, 209);
+  color: white;
+  border-radius: 10px;
 }
